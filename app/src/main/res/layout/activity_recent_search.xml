@@ -20,9 +20,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:elevation="@dimen/dimen_10_dp"
+            android:focusable="true"
             android:inputType="text"
-            android:queryHint="@string/search"
-            app:iconifiedByDefault="true" />
+            android:queryHint="@string/search" />
 
     </RelativeLayout>
 
