@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FlashPrep</string>
+    <string name="search_here">Search</string>
+    <string name="search">Type here...</string>
+    <string name="superheroes_villians">SuperHeroes &amp; Villains</string>
+    <string name="empty_search_text">No recent searches yet!</string>
+    <string name="recent_search">Recent Searches</string>
+    <string name="results">Results</string>
+    <string name="superhero">SuperHero</string>
+    <string name="race">Race</string>
+    <string name="gender">Gender</string>
+    <string name="height">Height</string>
+</resources>

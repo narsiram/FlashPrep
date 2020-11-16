@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rlMemberSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_4_dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="@dimen/margin_4_dp">
+
+        <ImageView
+            android:id="@+id/imageProfilePic"
+            android:layout_width="@dimen/dimen_80_dp"
+            android:layout_height="@dimen/dimen_80_dp"
+            android:padding="@dimen/dimen_4_dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_image_24" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imageProfilePic"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/dimen_6_dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_14_sp"
+                android:textStyle="bold"
+                tools:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvName"
+                android:layout_marginTop="@dimen/dimen_4_dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_12_sp"
+                tools:text="56 yrs" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

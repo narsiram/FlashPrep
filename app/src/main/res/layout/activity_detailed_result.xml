@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/lytToolbr"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:id="@+id/lytContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_20_dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_200_dp"
+                android:src="@drawable/default_image_24" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10_dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_20_sp"
+                android:textStyle="bold"
+                tools:text="@string/app_name" />
+
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10_dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_14_sp"
+                android:textStyle="bold"
+                tools:text="@string/app_name" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvRace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20_dp"
+                    android:layout_weight="2"
+                    android:text="@string/race"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_14_sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tvRaceValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20_dp"
+                    android:layout_weight="3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_14_sp"
+                    android:textStyle="normal"
+                    tools:text="@string/app_name" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="@dimen/dimen_10_dp"
+                android:background="@color/cardview_shadow_start_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20_dp"
+                    android:layout_weight="2"
+                    android:text="@string/gender"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_14_sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tvGenderValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20_dp"
+                    android:layout_weight="3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_14_sp"
+                    android:textStyle="normal"
+                    tools:text="@string/app_name" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="@dimen/dimen_10_dp"
+                android:background="@color/cardview_shadow_start_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvHeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20_dp"
+                    android:layout_weight="2"
+                    android:text="@string/height"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_14_sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tvHeightValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20_dp"
+                    android:layout_weight="3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_14_sp"
+                    android:textStyle="normal"
+                    tools:text="@string/app_name" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="@dimen/dimen_10_dp"
+                android:background="@color/cardview_shadow_start_color" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
